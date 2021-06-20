@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" 
+    href="css/mobile.css">
+    <link rel="short-cut icon" type="image/x-icon" href="img/favicon-60.png">
+    
+    <title>Punchen</title>
+
+    
+</head>
+
+<body>
+    <nav id="main-nav">
+        <div class="container">
+            <img src="img/herald-logo.png" alt="Herald" class="logo">
+            
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Team</a></li>
+                <li><a href="contact.html">News</a></li>
+                <li><a href="contact.html">Contact</a></li>
+        
+                
+            </ul>
+        </div>
+    </nav>
+    <!-- Showcase -->
+    <header id="showcase">
+        <div class="container">
+            <div class="showcase-container">
+             <div class="showcase-content">
+                 <div class="category"></div>
+                 <h1>Some Sports Article</h1>
+                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                     when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                     It has survived not only five centuries, but also the leap into electronic typesetting, 
+                     remaining essentially unchanged. </p>
+                     <a href="article.html" class="btn btn-primary">Read more</a>
+             </div>
+            </div>
+        </div>
+    </header>
+                 
+    <!-- Home Articles -->
+    <section id="home-articles" class="py-2">
+       <div class="container">
+            
+            <div class="articles-container" >
+                
+                <article class="card">
+                    <img src="img/people.jpg" alt="">
+                    <div>
+                    
+                    <h3>
+                        <a href="article.html">Lorem ipsum dolor sit amet</a>
+                    </h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                      The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, 
+                      as opposed to using 'Content here, content here', making it look like readable English</p>
+                   </div>
+                </article>
+                <article class="card">
+                    <img src="img/arena.jpg" alt="">
+                    
+                    <h3>
+                        <a href="article.html">Lorem ipsum dolor sit amet</a>
+                    </h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                      The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, 
+                      as opposed to using 'Content here, content here', making it look like readable English</p>
+                </article>
+                <article class="card">
+                    <img src="img/girls.jpg" alt="">
+                    
+                    <h3>
+                        <a href="article.html">Lorem ipsum dolor sit amet</a>
+                    </h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                      The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, 
+                      as opposed to using 'Content here, content here', making it look like readable English</p>
+                </article>
+                <article class="card">
+                    <img src="img/sports.jpg" alt="">
+                   
+                    <h3>
+                        <a href="article.html">Lorem ipsum dolor sit amet</a>
+                    </h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                      The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, 
+                      as opposed to using 'Content here, content here', making it look like readable English</p>
+                     
+                </article>
+                <article class="card">
+                    <img src="img/jojo.jpg" alt="">
+                   
+                    <h3>
+                        <a href="article.html">Lorem ipsum dolor sit amet</a>
+                    </h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                      The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, 
+                      as opposed to using 'Content here, content here', making it look like readable English</p>
+                </article>
+                <article class="card">
+                    <img src="img/jojo.jpg" alt="">
+                    
+                    <h3>
+                        <a href="article.html">Lorem ipsum dolor sit amet</a>
+                    </h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                      The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, 
+                      as opposed to using 'Content here, content here', making it look like readable English</p>
+                </article>
+                
+            </div>    
+        </div>
+        
+    </section>
+    <div id="myform">
+        <table>
+            <tr>
+                <td>First Name:</td>
+                <td><input type="text" id="fname"></td>
+            </tr>
+            <tr>
+                <td>Last Name:</td>
+                <td><input type="text" id="lname"></td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td><input type="text" id="address"></td>
+            </tr>
+            <tr>
+                <td>Age:</td>
+                <td><input type="text" id="age"></td>
+                <input type="button" id="add" value="Add" onclick="Javascript:addRow()">
+                <input type="button" id="clear" value="Clear" onclick="Javascript:clearContent()">
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+        </div>
+        <br>
+        <br>
+        <div id="mydata">
+            <table id="myTableData"  border="1" cellpadding="2">
+            <tr>
+                <td>Actions</td>
+                <td><b> First Name</b></td>
+                <td><b> Last Name</b></td>
+                <td><b> Address</b></td>
+                <td><b>Age</b></td>
+            </tr>
+        </table>
+        </div>
+        <div id="myDynamicTable">
+        </div>
+         <br>
+
+   <!-- Footer -->
+  <footer id="main-footer" class="py-2">
+    <div class="container footer-container">
+      <div>
+        <img src="img/herald-logo.png" alt="Herald">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit deserunt assumenda enim non? Ratione ipsum voluptates fuga eos earum vitae.</p>
+      </div>
+      <div>
+        <h3>Message Corner</h3>
+        <p><span style="color:blue">Lorem, ipsum dolor sit </span>amet consectetur adipisicing elit.</p>
+        <form>
+          
+          <input type="radio" id="male" name="gender" value="male">
+          <label for="male">Male</label><br>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Female</label><br>
+          <input type="radio" id="other" name="gender" value="other">
+          <label for="other">Other</label><br>
+          <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+          <label for="vehicle1"> Neswletter</label><br>
+          <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+          <label for="vehicle2"> Souvenir</label><br>
+          <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+          <label for="vehicle3"> Gift cards</label>
+          
+        </form>
+      </div>
+      <div>
+        <h3>Site Links</h3>
+        <ul class="list">
+          <li><a href="#">Help & Support</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Join Our Club</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, nesciunt!</p>
+        <a href="#" class="btn btn-secondary">Join Now</a>
+      </div>
+      <div>
+        <p>
+          Copyright &copy; 2021 &nbsp; &nbsp;  All Rights Reserved
+        </p>
+      </div>
+    </div>
+  </footer>
+  
+  
+   
+   <script src="js/script.js"></script>
+       
+  
+</body>
+</html>
